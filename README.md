@@ -1,22 +1,14 @@
-# 01 HTML CSS Git: Code Refactor
+# 01 Improving Horiseon Website's Accesibility
 
-## Your Task
+## Code Refactoring using HTML CSS Git
  
-**Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
-
-This week your challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**. 
+Welsome to my first assigment for the Front-End Development Bootcamp by Trilody and edX. This week's challenge is an on-the-job ticket, which meaning i began with a starter code that i needed to modify to boost Horiseon Website's **accessibility**. 
  
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired me to refactor the Horiseon Website to make it more accessible. 
  
 Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
  
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
- 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's challenge requirements:
+Even though accessibility is a broad topic that can include complex requirements, my tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
 
 ### User Story
 
@@ -28,7 +20,7 @@ SO THAT our own site is optimized for search engines
 
 ### Acceptance Criteria
 
-Your website must meet accessibility standards. You can achieve this completing the following:
+For the Horiseon Website to meet accessibility standards, I had to complete the following:
 
 * Semantic HTML elements can be found throughout the source code
 * HTML elements follow a logical structure independent of styling and positioning
@@ -36,42 +28,34 @@ Your website must meet accessibility standards. You can achieve this completing 
 * Heading attributes fall in sequential order
 * Title elements contain a concise, descriptive title
 
-### Resources:
+### Resources I used:
 
 * [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
 * [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+* [CSS Redundancy Checker](https://courses.cs.washington.edu/courses/cse154/20su/resources/assets/css-redundancy-checker/index.html)
+* [Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
+* [What On Earth Is Semantic Markup? (And Why Should You Learn To Write It)](https://html.com/semantic-markup/)
+* [Refactoring CSS](https://medium.com/inktrap/refactoring-css-61ef64601ebb)
+* [How to Refactor CSS – A Guide](https://www.hongkiat.com/blog/code-optimization-series-refactoring-css/)
+* [Refactoring CSS: Introduction](https://www.smashingmagazine.com/2021/07/refactoring-css-introduction-part1/)
 
 ### Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](01-html-css-git-challenge-demo.png)
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+> **Note**: This layout is designed for desktop viewing, so some of the elements don't look like the mock-up at a resolution smaller than 768px. 
 
-### Getting Started
+**Important**: An important rule i had to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+To impress this client, i Went the extra mile and improve the codebase for long-term sustainability. For example, I made sure that all links are functioning correctly. Also, i reworked the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-1. Create a new repository on your GitHub account and clone it to your computer.
-
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
-
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
-
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
-
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
-
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
-
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
+Are you ready to find out more? Here are the challenge requirements:
 
 ### Requirements
 
-This challenge is assessed on the following criteria: 
+This challenge was assessed on the following criteria: 
 
 #### Technical Acceptance Criteria: 40%
 
@@ -109,13 +93,27 @@ This challenge is assessed on the following criteria:
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
-### Review
+### Final Review
 
-You are required to submit the following for review:
+In the end, I was required to submit the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application is [here](https://inaciobanu.github.io/1stBootcampChallenge/).
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository is [here](https://github.com/inaciobanu/1stBootcampChallenge).
 
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## What Have I Learned?
+
+This was my first ever experience with coding and code refactoring and i absolutely loved it. The Slack channel we use for this bootcamp is very helpful and i remember reading my all my colleagues' questions and answers. A few of them were almost as confused as me about this challenge in the beginning. A few days ago i couldn't even understand 90% of their questions. I thought i'll never make it.
+
+But i learned that you just have to take it step by step: 
+* Firstly: read all the helpful materials and articles about the task at hand, in this case - accessibility. 
+* Secondly: The theory is very easy to grasp, but when you try to apply it, sometimes i doesn't just go according to the plan - for instance i tried to elimiate 3 classes, and messed up the structure of the entire website. I panicked. Luckily i remebered there's "undo" aka CTRL+Z which is now my bff, so i went on experimenting. I was reading a blog post, then tried the ideas in my code. If it worked, fine, if it didn't - undo :). 
+
+Now according to the Screen Reader, the accesibility is of either 90% or 100%. So i guess it's alright. 
+
+Oh, and now i understand all the questions my colleagues asked because i've just spent so much time on this code. The more you read it, the more you notice what you need to change. It's absolutely brilliant. And you don't need to be Einstein. You just need to read carefully, be brave, and follow the logic. It's that simple. 
+
+This being said, i hope you  like my project and stay tuned for the next challenges. I can't wait! 
+
+Happy coding, 
+Ina
